@@ -1,9 +1,9 @@
 
 public class CajaDeAhorroEnDolares extends CajaDeAhorro {
 
-	public CajaDeAhorroEnDolares(byte tipoDeCuenta, String alias, double saldo) {
-		super(tipoDeCuenta, alias, saldo);
-		// TODO ApÈndice de constructor generado autom·ticamente
+	public CajaDeAhorroEnDolares(String alias, double saldo) {
+		super(3 alias, saldo);
+		// TODO Ap√©ndice de constructor generado autom√°ticamente
 	}
 
 }
