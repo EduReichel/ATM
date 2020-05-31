@@ -53,7 +53,7 @@ public class DispensadorDeEfectivo {
 
 	private int cantidadBilletesQuinientos(int monto) {
 		int cantidadBilletesQuinientosEntregar=0;
-		if (monto >= 1000) {
+		if (monto >= 500) {
 			cantidadBilletesQuinientosEntregar = monto / 1000;
 			if (cantidadBilletesQuinientosEntregar < getCantidadBilletesQuinientosAtm()) {
 				this.montoActual = monto - (cantidadBilletesQuinientosEntregar * 1000);
@@ -67,7 +67,7 @@ public class DispensadorDeEfectivo {
 
 	private int cantidadBilletesCien(int monto) {
 		int cantidadBilletesCienEntregar=0;
-		if (monto >= 1000) {
+		if (monto >= 100) {
 			cantidadBilletesCienEntregar = monto / 1000;
 			if (cantidadBilletesCienEntregar < getCantidadBilletesCienAtm()) {
 				this.montoActual = monto - (cantidadBilletesCienEntregar * 1000);
